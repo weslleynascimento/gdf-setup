@@ -1,0 +1,1031 @@
+{
+    "ID": "F16", 
+    "data": 20170628, 
+    "produtividadePF": 0.8, 
+    "servicos": [
+        {
+            "descricao": "PLANEJAMENTO", 
+            "itemDeServico": [
+                {
+                    "descricao": "PLANEJAMENTO", 
+                    "produtos": [
+                        {
+                            "descricao": "Proposta e Dimensionamento de Serviço", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PDS", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Formulário de Integração", 
+                            "homologador": "GAD", 
+                            "sigla": "FOI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Backlog do Produto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "BAP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Plano de Migração de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "PMD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Roadmap do Produto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "ROP", 
+                            "tipo": "Desejável"
+                        }, 
+                        {
+                            "descricao": "Modelo de Dados Conceitual", 
+                            "homologador": "GAD", 
+                            "sigla": "MDC", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Plano de Gerenciamento do Projeto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PGP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Plano do Release", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PLR", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "descricao": "DESENVOLVIMENTO", 
+            "itemDeServico": [
+                {
+                    "descricao": "PROJETO DE DESENVOLVIMENTO", 
+                    "produtos": [
+                        {
+                            "descricao": "Backlog do Produto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "BAP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "História de Usuário", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "ESP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Formulário de Integração", 
+                            "homologador": "GAD", 
+                            "sigla": "FOI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Massa de teste", 
+                            "homologador": "GQS", 
+                            "sigla": "MAT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Modelo de Dados Conceitual", 
+                            "homologador": "GAD", 
+                            "sigla": "MDC", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Ordem de Serviço da Release", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "OSR", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Gerenciamento do Projeto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PGP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Plano de Iteração", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "PLI", 
+                            "tipo": "Desejável"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "descricao": "MANUTENÇÃO", 
+            "itemDeServico": [
+                {
+                    "descricao": "PROJETO DE MELHORIA", 
+                    "produtos": [
+                        {
+                            "descricao": "Backlog do Produto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "BAP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "História de Usuário", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "ESP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Formulário de Integração", 
+                            "homologador": "GAD", 
+                            "sigla": "FOI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Massa de teste", 
+                            "homologador": "GQS", 
+                            "sigla": "MAT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Modelo de Dados Conceitual", 
+                            "homologador": "GAD", 
+                            "sigla": "MDC", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Ordem de Serviço da Release", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "OSR", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Gerenciamento do Projeto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PGP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Plano de Iteração", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "PLI", 
+                            "tipo": "Desejável"
+                        }, 
+                        {
+                            "descricao": "Plano do Release", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PLR", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano do Release", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PLR", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Migração de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "PMD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Teste de Aceitação", 
+                            "homologador": "GQS", 
+                            "sigla": "PTA", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Roadmap do Produto", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "ROP", 
+                            "tipo": "Desejável"
+                        }, 
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Script JMeter", 
+                            "homologador": "GQS", 
+                            "sigla": "SCJ", 
+                            "tipo": "Obrigatório"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "MANUTENÇÃO CORRETIVA (Projetizada)", 
+                    "produtos": [
+                        {
+                            "descricao": "Relatório de desempenho", 
+                            "homologador": "GQS", 
+                            "sigla": "RED", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Massa de teste", 
+                            "homologador": "GQS", 
+                            "sigla": "MAT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Teste de Aceitação", 
+                            "homologador": "GQS", 
+                            "sigla": "PTA", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Script JMeter", 
+                            "homologador": "GQS", 
+                            "sigla": "SCJ", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório de Desempenho Comparativo", 
+                            "homologador": "GQS", 
+                            "sigla": "RDC", 
+                            "tipo": "Obrigatório"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "MANUTENÇÃO CORRETIVA (Emergencial)", 
+                    "produtos": [
+                        {
+                            "descricao": "Relatório de desempenho", 
+                            "homologador": "GQS", 
+                            "sigla": "RED", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Massa de teste", 
+                            "homologador": "GQS", 
+                            "sigla": "MAT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Teste de Aceitação", 
+                            "homologador": "GQS", 
+                            "sigla": "PTA", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Script JMeter", 
+                            "homologador": "GQS", 
+                            "sigla": "SCJ", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório de Desempenho Comparativo", 
+                            "homologador": "GQS", 
+                            "sigla": "RDC", 
+                            "tipo": "Obrigatório"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "ADAPTAÇÂO EM FUNCIONALIDADES SEM ALTERAÇÃO DE REQUISITOS FUNCIONAIS", 
+                    "produtos": [
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "História de Usuário", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "ESP", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Massa de teste", 
+                            "homologador": "GQS", 
+                            "sigla": "MAT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Script JMeter", 
+                            "homologador": "GQS", 
+                            "sigla": "SCJ", 
+                            "tipo": "Obrigatório"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "MUDANÇA DE PLATAFORMA (Fora de escopo)", 
+                    "produtos": [
+                        {
+                            "descricao": "#N/A", 
+                            "homologador": "#N/A", 
+                            "sigla": "#N/A", 
+                            "tipo": "#N/A"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "descricao": "COMPLEMENTARES", 
+            "itemDeServico": [
+                {
+                    "descricao": "DOCUMENTAÇÃO DE SISTEMA LEGADO - A", 
+                    "produtos": [
+                        {
+                            "descricao": "Documento de especificação de requisitos", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DER", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Modelo de Casos de Uso", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "MCU", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Modelo de Domínio", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "MOD", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Documento de especificação de requisitos", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DER", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de classes", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DIC", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Modelo de Dados Conceitual", 
+                            "homologador": "GAD", 
+                            "sigla": "MDC", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Diagrama de classes (visão lógica)", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DCV", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Plano de Arquitetura", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "PLA", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "DOCUMENTAÇÃO DE SISTEMA LEGADO - B", 
+                    "produtos": [
+                        {
+                            "descricao": "Diagrama de Contexto", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DIC", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de Estrutura de Dados", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DED", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Lista de Eventos", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "LIE", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de Fluxo de Dados (DFD)", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DFD", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de Transição de Estados", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DTE", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Mini-especificações", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "MIE", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "DOCUMENTAÇÃO ADICIONAL AOS SERVIÇOS DE PROJETO OU MANUTENÇÃO DE SISTEMA - A", 
+                    "produtos": [
+                        {
+                            "descricao": "Documento de especificação de requisitos", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DER", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Modelo de Casos de Uso", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "MCU", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Modelo de Domínio", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "MOD", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Documento de especificação de requisitos", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DER", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de classes", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DIC", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Modelo de Dados Conceitual", 
+                            "homologador": "GAD", 
+                            "sigla": "MDC", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Diagrama de classes (visão lógica)", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DCV", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Plano de Arquitetura", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "PLA", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Especificação de Casos de Teste", 
+                            "homologador": "GQS", 
+                            "sigla": "ECT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "DOCUMENTAÇÃO ADICIONAL AOS SERVIÇOS DE PROJETO OU MANUTENÇÃO DE SISTEMA - B", 
+                    "produtos": [
+                        {
+                            "descricao": "Diagrama de Contexto", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DIC", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de Estrutura de Dados", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DED", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Lista de Eventos", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "LIE", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de Fluxo de Dados (DFD)", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DFD", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Diagrama de Transição de Estados", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "DTE", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Mini-especificações", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "MIE", 
+                            "tipo": "Sob demanda"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "ATUALIZAÇÃO DE DADOS", 
+                    "produtos": [
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório da operação", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "REO", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "MANUTENÇÃO EM INTERFACE", 
+                    "produtos": [
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "APURAÇÃO ESPECIAL – BASE DE DADOS – SEM CONSULTA PRÉVIA E COM ATUALIZAÇÂO DE DADOS", 
+                    "produtos": [
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório da operação", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "REO", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "APURAÇÃO ESPECIAL – BASE DE DADOS – COM CONSULTA PRÉVIA SEM ATUALIZAÇÃO DE DADOS", 
+                    "produtos": [
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório da operação", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "REO", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "APURAÇÃO ESPECIAL – BASE DE DADOS – COM CONSULTA PRÉVIA E COM ATUALIZAÇÃO DE DADOS", 
+                    "produtos": [
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório da operação", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "REO", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "APURAÇÃO ESPECIAL – GERAÇÃO DE RELATÓRIOS", 
+                    "produtos": [
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório da operação", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "REO", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "APURAÇÃO ESPECIAL – REEXECUÇÃO", 
+                    "produtos": [
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Relatório da operação", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "REO", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "DESENVOLVIMENTO, MANUTENÇÃO E PUBLICAÇÃO DE PÁGINAS ESTÁTICAS DE INTRANET, INTERNET ou PORTAL", 
+                    "produtos": [
+                        {
+                            "descricao": "Declaração de Execução de Testes", 
+                            "homologador": "GQS", 
+                            "sigla": "DET", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "VERIFICAÇÃO DE ERROS", 
+                    "produtos": [
+                        {
+                            "descricao": "Relatório de Funcionalidades com Erro", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "RFE", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "PONTOS DE FUNÇÃO DE TESTE", 
+                    "produtos": [
+                        {
+                            "descricao": "Relatório de Funcões Testadas", 
+                            "homologador": "Analista de Requisitos", 
+                            "sigla": "RFT", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "descricao": "PROJETO DE MIGRAÇÃO DE DADOS", 
+            "itemDeServico": [
+                {
+                    "descricao": "PROJETO DE MIGRAÇÃO DE DADOS", 
+                    "produtos": [
+                        {
+                            "descricao": "Guia de Apoio para Implantação", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "GAI", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Pacote de software", 
+                            "homologador": "Líder de Projeto", 
+                            "sigla": "PAS", 
+                            "tipo": "Obrigatório - IR"
+                        }, 
+                        {
+                            "descricao": "Plano de Migração de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "PMD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Script de Banco de Dados", 
+                            "homologador": "GAD", 
+                            "sigla": "SBD", 
+                            "tipo": "Obrigatório"
+                        }, 
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "descricao": "CONTAGEM", 
+            "itemDeServico": [
+                {
+                    "descricao": "CONTAGEM INDICATIVA", 
+                    "produtos": [
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "CONTAGEM ESTIMATIVA", 
+                    "produtos": [
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }, 
+                {
+                    "descricao": "CONTAGEM DETALHADA", 
+                    "produtos": [
+                        {
+                            "descricao": "Planilha de Ponto de Função", 
+                            "homologador": "Métricas", 
+                            "sigla": "PPF", 
+                            "tipo": "Obrigatório - IR"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "descricao": "N/A", 
+            "itemDeServico": [
+                {
+                    "descricao": "COMPONENTE INTERNO REUSÀVEL", 
+                    "produtos": [
+                        {
+                            "descricao": "#N/A", 
+                            "homologador": "#N/A", 
+                            "sigla": "#N/A", 
+                            "tipo": "#N/A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ], 
+    "versao": "1.0"
+}
