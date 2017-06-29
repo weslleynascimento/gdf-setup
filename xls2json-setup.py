@@ -7,12 +7,12 @@ import sys
 
 class Setup:
 
- 	def __init__(self,ID,versao, data, produtividadePF, servicos):
+ 	def __init__(self,ID,versao, data, taxaDeEntrega, servicos):
 	 	        
 	        self.ID=ID
 	        self.versao=versao
 	        self.data=data
-	        self.produtividadePF=produtividadePF
+	        self.taxaDeEntrega=taxaDeEntrega
 	        self.servicos=servicos
 
 
@@ -38,9 +38,9 @@ mysheet = ""
 sheet = wb.get_sheet_by_name('Planos')
 
 setupID = sheet['B1'].value.strip()
-versao = sheet['D1'].value.strip()
-dataVersao = sheet['F1'].value
-produtividadePF = sheet['H1'].value
+versao = sheet['E1'].value.strip()
+dataVersao = sheet['G1'].value
+taxaDeEntrega = sheet['I1'].value
 
 
 line = 3
@@ -52,7 +52,7 @@ descricaoservico =''
 
 line = 3
 mycell = 'B' + str(line)
-descricaoitemservico = sheet['B' + str(line)].value.strip()
+nomeitemservico = sheet['B' + str(line)].value.strip()
 #siglaproduto = sheet['E' + str(line)].value.strip()
 descricaoservico = sheet['A' + str(line)].value.strip()
 produtos=[]
@@ -62,17 +62,19 @@ while sheet[mycell].value:
 	#if (siglaproduto != sheet['E' + str(line)].value.strip()) and (descricaoitemservico == sheet['B' + str(line)].value.strip()) and (descricaoservico == sheet['A' + str(line)].value.strip()):	
 
 	#if newItem(produtos, sheet['E' + str(line)].value.strip()):
-	if (descricaoitemservico == sheet['B' + str(line)].value.strip()) and (descricaoservico == sheet['A' + str(line)].value.strip()):
-		p = {"sigla":sheet['E' + str(line)].value.strip(), "descricao":sheet['F' + str(line)].value.strip(), "tipo":sheet['G' + str(line)].value.strip(), "homologador":sheet['H' + str(line)].value.strip()}
+	if (nomeitemservico == sheet['B' + str(line)].value.strip()) and (descricaoservico == sheet['A' + str(line)].value.strip()):
+		p = {"sigla":sheet['F' + str(line)].value.strip(), "descricao":sheet['G' + str(line)].value.strip(), "tipo":sheet['H' + str(line)].value.strip(), "homologador":sheet['I' + str(line)].value.strip()}
 		produtos.append(p)
 
-	if (descricaoitemservico != sheet['B' + str(line)].value.strip()): #and (descricaoservico == sheet['A' + str(line)].value.strip()):
-		descricaoitemservico = sheet['B' + str(line - 1)].value.strip()
-		localitemservico = {"descricao":descricaoitemservico, "produtos":produtos}
+	if (nomeitemservico != sheet['B' + str(line)].value.strip()): #and (descricaoservico == sheet['A' + str(line)].value.strip()):
+		nomeitemservico = sheet['B' + str(line - 1)].value.strip()
+		descricaoitemservico = sheet['C' + str(line - 1)].value.strip()
+		localitemservico = {"nome":nomeitemservico,"descricao":descricaoitemservico, "produtos":produtos}
 		itemservico.append(localitemservico)
 		produtos=[]
-		descricaoitemservico = sheet['B' + str(line)].value.strip()
-		p = {"sigla":sheet['E' + str(line)].value.strip(), "descricao":sheet['F' + str(line)].value.strip(), "tipo":sheet['G' + str(line)].value.strip(), "homologador":sheet['H' + str(line)].value.strip()}
+		
+		nomeitemservico = sheet['B' + str(line)].value.strip()
+		p = {"sigla":sheet['F' + str(line)].value.strip(), "descricao":sheet['G' + str(line)].value.strip(), "tipo":sheet['H' + str(line)].value.strip(), "homologador":sheet['I' + str(line)].value.strip()}
 		produtos.append(p)
 
 	if descricaoservico != sheet['A' + str(line)].value.strip():
@@ -80,7 +82,7 @@ while sheet[mycell].value:
 		servicos.append(s)
 		itemservico =[]
 		produtos=[]
-		p = {"sigla":sheet['E' + str(line)].value.strip(), "descricao":sheet['F' + str(line)].value.strip(), "tipo":sheet['G' + str(line)].value.strip(), "homologador":sheet['H' + str(line)].value.strip()}
+		p = {"sigla":sheet['F' + str(line)].value.strip(), "descricao":sheet['G' + str(line)].value.strip(), "tipo":sheet['H' + str(line)].value.strip(), "homologador":sheet['I' + str(line)].value.strip()}
 		produtos.append(p)
 		descricaoservico = sheet['A' + str(line)].value.strip()
 
@@ -88,7 +90,7 @@ while sheet[mycell].value:
 	mycell = 'B' + str(line)
 
 #print itemservico
-setup=Setup(setupID,versao, dataVersao, produtividadePF, servicos)
+setup=Setup(setupID,versao, dataVersao, taxaDeEntrega, servicos)
 #print servico
 #print json.dumps(vars(setup),sort_keys=True, indent=4)  
 

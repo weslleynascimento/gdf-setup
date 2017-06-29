@@ -1,13 +1,13 @@
 {
     "ID": "F16", 
     "data": 20170628, 
-    "produtividadePF": 0.8, 
     "servicos": [
         {
             "descricao": "PLANEJAMENTO", 
             "itemDeServico": [
                 {
-                    "descricao": "PLANEJAMENTO", 
+                    "descricao": "Este serviço deve ser escolhido na primeira demanda para a CONTRATADA e não haverá remuneração.", 
+                    "nome": "PLANEJAMENTO", 
                     "produtos": [
                         {
                             "descricao": "Proposta e Dimensionamento de Serviço", 
@@ -71,7 +71,8 @@
             "descricao": "DESENVOLVIMENTO", 
             "itemDeServico": [
                 {
-                    "descricao": "PROJETO DE DESENVOLVIMENTO", 
+                    "descricao": "É o projeto para desenvolver e entregar a primeira versão de uma aplicação de software. Seu tamanho funcional é a medida das funcionalidades entregues ao usuário no final do projeto.", 
+                    "nome": "PROJETO DE DESENVOLVIMENTO", 
                     "produtos": [
                         {
                             "descricao": "Backlog do Produto", 
@@ -153,7 +154,8 @@
             "descricao": "MANUTENÇÃO", 
             "itemDeServico": [
                 {
-                    "descricao": "PROJETO DE MELHORIA", 
+                    "descricao": "O Projeto de Melhoria (enhancement), também denominado de projeto de melhoria funcional ou manutenção evolutiva, está associado às mudanças em requisitos funcionais da aplicação, ou seja, à inclusão de novas funcionalidades, alteração ou exclusão de funcionalidades em aplicações implantadas.", 
+                    "nome": "PROJETO DE MELHORIA", 
                     "produtos": [
                         {
                             "descricao": "Backlog do Produto", 
@@ -278,7 +280,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "MANUTENÇÃO CORRETIVA (Projetizada)", 
+                    "descricao": "A manutenção corretiva altera o software para correção de defeitos em funcionalidades de sistemas em homologação ou produção.", 
+                    "nome": "MANUTENÇÃO CORRETIVA (Projetizada)", 
                     "produtos": [
                         {
                             "descricao": "Relatório de desempenho", 
@@ -343,7 +346,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "MANUTENÇÃO CORRETIVA (Emergencial)", 
+                    "descricao": "A manutenção corretiva altera o software para correção de defeitos em funcionalidades de sistemas em homologação ou produção.", 
+                    "nome": "MANUTENÇÃO CORRETIVA (Emergencial)", 
                     "produtos": [
                         {
                             "descricao": "Relatório de desempenho", 
@@ -408,7 +412,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "ADAPTAÇÂO EM FUNCIONALIDADES SEM ALTERAÇÃO DE REQUISITOS FUNCIONAIS", 
+                    "descricao": "São consideradas nesta categoria as demandas de manutenção adaptativa associadas a solicitações que envolvem aspectos não funcionais, sem alteração em requisitos funcionais.", 
+                    "nome": "ADAPTAÇÂO EM FUNCIONALIDADES SEM ALTERAÇÃO DE REQUISITOS FUNCIONAIS", 
                     "produtos": [
                         {
                             "descricao": "Declaração de Execução de Testes", 
@@ -461,7 +466,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "MUDANÇA DE PLATAFORMA (Fora de escopo)", 
+                    "descricao": "Fora de Escopo da contratação", 
+                    "nome": "MUDANÇA DE PLATAFORMA (Fora de escopo)", 
                     "produtos": [
                         {
                             "descricao": "#N/A", 
@@ -477,7 +483,8 @@
             "descricao": "COMPLEMENTARES", 
             "itemDeServico": [
                 {
-                    "descricao": "DOCUMENTAÇÃO DE SISTEMA LEGADO - A", 
+                    "descricao": "São demandas de documentação ou atualização de documentação de sistemas legados", 
+                    "nome": "DOCUMENTAÇÃO DE SISTEMA LEGADO - A", 
                     "produtos": [
                         {
                             "descricao": "Documento de especificação de requisitos", 
@@ -542,7 +549,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "DOCUMENTAÇÃO DE SISTEMA LEGADO - B", 
+                    "descricao": "São demandas de documentação ou atualização de documentação de sistemas legados", 
+                    "nome": "DOCUMENTAÇÃO DE SISTEMA LEGADO - B", 
                     "produtos": [
                         {
                             "descricao": "Diagrama de Contexto", 
@@ -589,7 +597,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "DOCUMENTAÇÃO ADICIONAL AOS SERVIÇOS DE PROJETO OU MANUTENÇÃO DE SISTEMA - A", 
+                    "descricao": "São demandas de documentação ou atualização de documentação de sistemas legados ou novos projetos, onde a documentação preconizada não satisfaz a CONTRATADA, sendo necessária geração de novos documentos", 
+                    "nome": "DOCUMENTAÇÃO ADICIONAL AOS SERVIÇOS DE PROJETO OU MANUTENÇÃO DE SISTEMA - A", 
                     "produtos": [
                         {
                             "descricao": "Documento de especificação de requisitos", 
@@ -654,7 +663,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "DOCUMENTAÇÃO ADICIONAL AOS SERVIÇOS DE PROJETO OU MANUTENÇÃO DE SISTEMA - B", 
+                    "descricao": "São demandas de documentação ou atualização de documentação de sistemas legados ou novos projetos, onde a documentação preconizada não satisfaz a CONTRATADA, sendo necessária geração de novos documentos", 
+                    "nome": "DOCUMENTAÇÃO ADICIONAL AOS SERVIÇOS DE PROJETO OU MANUTENÇÃO DE SISTEMA - B", 
                     "produtos": [
                         {
                             "descricao": "Diagrama de Contexto", 
@@ -701,7 +711,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "ATUALIZAÇÃO DE DADOS", 
+                    "descricao": "As demandas de correção de problemas em base de dados estão associadas a atualizações diretamente no banco de dados, sem gestão de configuração destas atualizações, que devem ser requisitadas e aprovadas pela CONTRATANTE.", 
+                    "nome": "ATUALIZAÇÃO DE DADOS", 
                     "produtos": [
                         {
                             "descricao": "Script de Banco de Dados", 
@@ -724,7 +735,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "MANUTENÇÃO EM INTERFACE", 
+                    "descricao": "A manutenção em interface, denominada na literatura de manutenção cosmética, é associada às demandas de alterações de interface, por exemplo: fonte de letra, cores de telas, logotipos, mudança de botões na tela, mudança de posição de campos ou texto na tela.", 
+                    "nome": "MANUTENÇÃO EM INTERFACE", 
                     "produtos": [
                         {
                             "descricao": "Declaração de Execução de Testes", 
@@ -753,7 +765,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "APURAÇÃO ESPECIAL – BASE DE DADOS – SEM CONSULTA PRÉVIA E COM ATUALIZAÇÂO DE DADOS", 
+                    "descricao": "Este tipo de apuração especial é um projeto que inclui a geração de procedimentos para atualização da base de dados. Deve-se destacar que estas funções são executadas apenas uma vez, não fazendo parte da aplicação, visando a correção de dados incorretos na base de dados da aplicação ou atualização em função de modificação da estrutura de dados. Normalmente, nesse tipo de atualização são afetados múltiplos registros.", 
+                    "nome": "APURAÇÃO ESPECIAL – BASE DE DADOS – SEM CONSULTA PRÉVIA E COM ATUALIZAÇÂO DE DADOS", 
                     "produtos": [
                         {
                             "descricao": "Script de Banco de Dados", 
@@ -776,7 +789,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "APURAÇÃO ESPECIAL – BASE DE DADOS – COM CONSULTA PRÉVIA SEM ATUALIZAÇÃO DE DADOS", 
+                    "descricao": "Nessa Apuração Especial – Base de Dados, o usuário solicita uma consulta prévia das informações. Deve-se ressaltar que essa consulta deve ser realizada antes da construção da funcionalidade, não se trata de homologação. A consulta prévia não é definida pela CONTRATADA, obrigatoriamente essa deve ser solicitada pelo CONTRATANTE para a avaliação da viabilidade de implementar a Apuração Especial -Base de Dados. Esta consulta prévia, classificada como Consulta Externa ou Saída Externa deve ser dimensionada considerando-se o tamanho da funcionalidade em questão.", 
+                    "nome": "APURAÇÃO ESPECIAL – BASE DE DADOS – COM CONSULTA PRÉVIA SEM ATUALIZAÇÃO DE DADOS", 
                     "produtos": [
                         {
                             "descricao": "Script de Banco de Dados", 
@@ -799,7 +813,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "APURAÇÃO ESPECIAL – BASE DE DADOS – COM CONSULTA PRÉVIA E COM ATUALIZAÇÃO DE DADOS", 
+                    "descricao": "Esse caso de Apuração Especial - Base de Dados ocorre após uma demanda de consulta prévia, deve-se aplicar um fator de 60% na fórmula de contagem da Apuração Especial - Base de Dados.", 
+                    "nome": "APURAÇÃO ESPECIAL – BASE DE DADOS – COM CONSULTA PRÉVIA E COM ATUALIZAÇÃO DE DADOS", 
                     "produtos": [
                         {
                             "descricao": "Script de Banco de Dados", 
@@ -822,7 +837,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "APURAÇÃO ESPECIAL – GERAÇÃO DE RELATÓRIOS", 
+                    "descricao": "Este tipo de apuração especial é um projeto que inclui a geração de relatórios em uma ou mais mídias para o usuário. Em alguns casos, são solicitadas extrações de dados e envio dos dados para outros sistemas. Caso, neste envio de dados, sejam requisitadas atualizações no sistema de origem, então essas funções transacionais são Saídas Externas, devido à atualização do Arquivo Lógico Interno. Deve-se destacar que essas funções são executadas apenas uma vez, não fazendo parte da aplicação. Nestes casos, considera-se contagem de pontos de função das funcionalidades desenvolvidas.", 
+                    "nome": "APURAÇÃO ESPECIAL – GERAÇÃO DE RELATÓRIOS", 
                     "produtos": [
                         {
                             "descricao": "Script de Banco de Dados", 
@@ -845,7 +861,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "APURAÇÃO ESPECIAL – REEXECUÇÃO", 
+                    "descricao": "Em casos onde a CONTRATANTE tem interesse em executar uma apuração especial mais de uma vez. A reexecução de uma apuração especial, esta deve ser dimensionada com a aplicação de um fator redutor de 10% na contagem de pontos de função da apuração especial em questão.", 
+                    "nome": "APURAÇÃO ESPECIAL – REEXECUÇÃO", 
                     "produtos": [
                         {
                             "descricao": "Script de Banco de Dados", 
@@ -868,7 +885,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "DESENVOLVIMENTO, MANUTENÇÃO E PUBLICAÇÃO DE PÁGINAS ESTÁTICAS DE INTRANET, INTERNET ou PORTAL", 
+                    "descricao": "Nesta seção são tratados desenvolvimentos e manutenções específicas em páginas estáticas de portais, intranets ou websites. As demandas desta seção abrangem a publicação de páginas Web com conteúdo estático. Por exemplo: criação de página HTML, atualização de menu estático, atualização de texto ou banner estáticos em páginas HTML existentes. Caso o desenvolvimento de páginas estáticas esteja contido em um projeto de desenvolvimento, então elas serão contabilizadas no projeto de desenvolvimento e não devem ser mensuradas em separado. Ou seja, esta seção se aplica quando ocorrer a demanda exclusivamente para o desenvolvimento ou manutenção de páginas estáticas.", 
+                    "nome": "DESENVOLVIMENTO, MANUTENÇÃO E PUBLICAÇÃO DE PÁGINAS ESTÁTICAS DE INTRANET, INTERNET ou PORTAL", 
                     "produtos": [
                         {
                             "descricao": "Declaração de Execução de Testes", 
@@ -897,7 +915,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "VERIFICAÇÃO DE ERROS", 
+                    "descricao": "Aferição do tamanho em PF das funcionalidades verificadas em que o CONTRATANTE reportou comportamento anormal ou indevido no sistema. A verificação de erros deve estar associada somente a funcionalidades específicas do sistema, não sendo aplicado a erros de servidores de aplicação, de arquivos ou de banco de dados, de rede ou do barramento de serviços e infraestrutura no geral;", 
+                    "nome": "VERIFICAÇÃO DE ERROS", 
                     "produtos": [
                         {
                             "descricao": "Relatório de Funcionalidades com Erro", 
@@ -914,7 +933,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "PONTOS DE FUNÇÃO DE TESTE", 
+                    "descricao": "Utilizada quando a CONTRATANTE ou RESPONSÁVEL TÉCNICA opta pela contratação especifica de testes em funcionalidades que não estão no projeto de software a ser medido.", 
+                    "nome": "PONTOS DE FUNÇÃO DE TESTE", 
                     "produtos": [
                         {
                             "descricao": "Relatório de Funcões Testadas", 
@@ -936,7 +956,8 @@
             "descricao": "PROJETO DE MIGRAÇÃO DE DADOS", 
             "itemDeServico": [
                 {
-                    "descricao": "PROJETO DE MIGRAÇÃO DE DADOS", 
+                    "descricao": "O projeto de conversão, ou migração, de dados deve ser contado como um novo projeto de desenvolvimento de um sistema.", 
+                    "nome": "PROJETO DE CONVERSÃO DE DADOS", 
                     "produtos": [
                         {
                             "descricao": "Guia de Apoio para Implantação", 
@@ -976,7 +997,8 @@
             "descricao": "CONTAGEM", 
             "itemDeServico": [
                 {
-                    "descricao": "CONTAGEM INDICATIVA", 
+                    "descricao": "Na contagem indicativa determina-se a quantidade das funções do tipo dado (ALIs e AIEs) e calcula-se o total total de pontos de função não ajustados da aplicação da seguinte forma: tamanho indicativo (pf) = 35 x número de ALIs + 15 x número de AIEs", 
+                    "nome": "CONTAGEM INDICATIVA", 
                     "produtos": [
                         {
                             "descricao": "Planilha de Ponto de Função", 
@@ -987,7 +1009,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "CONTAGEM ESTIMATIVA", 
+                    "descricao": "Na contagem estimativa determina-se todas as funções de todos os tipos (ALI, AIE, EE, SE, CE). Toda função do tipo dado (ALI, AIE) tem sua complexidade funcional avaliada como Baixa, e toda função transacional (EE, SE, CE) é avaliada como de complexidade média.", 
+                    "nome": "CONTAGEM ESTIMATIVA", 
                     "produtos": [
                         {
                             "descricao": "Planilha de Ponto de Função", 
@@ -998,7 +1021,8 @@
                     ]
                 }, 
                 {
-                    "descricao": "CONTAGEM DETALHADA", 
+                    "descricao": "A contagem detalhada é a contagem usual de pontos de função onde determina-se todas as funções de todos os tipos (ALI, AIE, EE, SE, CE) e determina-se a complexidade de cada função (Baixa, Média, Alta)", 
+                    "nome": "CONTAGEM DETALHADA", 
                     "produtos": [
                         {
                             "descricao": "Planilha de Ponto de Função", 
@@ -1014,7 +1038,8 @@
             "descricao": "N/A", 
             "itemDeServico": [
                 {
-                    "descricao": "COMPONENTE INTERNO REUSÀVEL", 
+                    "descricao": "São demandadas manutenções em componentes, que implementam regras de negócio, específicos de uma aplicação e estes são reusados por várias funcionalidades da aplicação.", 
+                    "nome": "COMPONENTE INTERNO REUSÀVEL", 
                     "produtos": [
                         {
                             "descricao": "#N/A", 
@@ -1027,5 +1052,6 @@
             ]
         }
     ], 
+    "taxaDeEntrega": 0.8, 
     "versao": "1.0"
 }
